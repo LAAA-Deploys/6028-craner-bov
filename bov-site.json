@@ -223,8 +223,8 @@
           "price_per_sf": 447.59029874050174,
           "grm_current": 12.936221419975933,
           "grm_market": 12.44212962962963,
-          "cap_current": 5.341813953488373,
-          "cap_market": 5.621767441860466
+          "cap_current": 5.355767441860465,
+          "cap_market": 5.635720930232558
         },
         {
           "label": "Range top",
@@ -233,8 +233,8 @@
           "price_per_sf": 463.2039138128448,
           "grm_current": 13.38748495788207,
           "grm_market": 12.876157407407407,
-          "cap_current": 5.123851685393258,
-          "cap_market": 5.394368539325843
+          "cap_current": 5.137334831460675,
+          "cap_market": 5.407851685393259
         },
         {
           "label": "Midpoint",
@@ -243,8 +243,8 @@
           "price_per_sf": 447.59029874050174,
           "grm_current": 12.936221419975933,
           "grm_market": 12.44212962962963,
-          "cap_current": 5.341813953488373,
-          "cap_market": 5.621767441860466
+          "cap_current": 5.355767441860465,
+          "cap_market": 5.635720930232558
         },
         {
           "label": "Range bottom",
@@ -253,8 +253,8 @@
           "price_per_sf": 431.9766836681586,
           "grm_current": 12.484957882069795,
           "grm_market": 12.008101851851851,
-          "cap_current": 5.575532530120482,
-          "cap_market": 5.865604819277109
+          "cap_current": 5.589990361445783,
+          "cap_market": 5.88006265060241
         }
       ],
       "scheduled_rent": [
@@ -271,21 +271,21 @@
       ],
       "grm_current": 12.936221419975933,
       "grm_market": 12.44212962962963,
-      "cap_current": 5.341813953488373,
-      "cap_market": 5.621767441860466,
+      "cap_current": 5.355767441860465,
+      "cap_market": 5.635720930232558,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 229698,
-      "noi_market": 241736,
+      "noi_current": 230298,
+      "noi_market": 242336,
       "tax_rate": 1.1244,
       "tax_anchor": {
         "ad_valorem": 48349,
         "flat_assessments": 0,
         "expense_line": "Real Estate Taxes"
       },
-      "expense_total": 92982,
-      "expense_per_unit": 11622.75,
-      "expense_per_sf": 9.67856771104403,
+      "expense_total": 92382,
+      "expense_per_unit": 11547.75,
+      "expense_per_sf": 9.616113250754658,
       "unit_mix": [
         {
           "count": 2,
@@ -363,40 +363,40 @@
           335220
         ],
         "expenses": [
-          92982,
-          93484
+          92382,
+          92884
         ],
         "expense_ratio": [
-          28.815544812197842,
-          27.887357556231727
+          28.62960208255857,
+          27.708370622277904
         ],
         "noi": [
-          229698,
-          241736
+          230298,
+          242336
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          229698.0,
-          241736.0
+          230298.0,
+          242336.0
         ],
         "pretax_cf_pct": [
-          5.341813953488373,
-          5.621767441860466
+          5.355767441860465,
+          5.635720930232558
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          229698.0,
-          241736.0
+          230298.0,
+          242336.0
         ],
         "total_return_pct": [
-          5.341813953488373,
-          5.621767441860466
+          5.355767441860465,
+          5.635720930232558
         ]
       },
       "expense_lines": [
@@ -438,8 +438,8 @@
         ],
         [
           "Replacement Reserves",
-          3000,
-          3000,
+          2400,
+          2400,
           "10"
         ],
         [
@@ -476,7 +476,7 @@
         ],
         "10": [
           "Replacement Reserves",
-          "$375 per unit per year, or $3,000, ownership's own sizing figure. The booked statement carries no reserve line."
+          "$300 per unit per year, or $2,400, set at half of the repairs allowance for a 2024 building. Ownership's sizing sheet carries $3,000 and the booked statement carries no reserve line."
         ],
         "11": [
           "Management Fee (4.0% of EGI)",
@@ -505,7 +505,7 @@
       "highlights": [
         "Completed 2024 to 2025: two three-story duplexes with roof decks and four ADUs, all with certificates of occupancy",
         "Exempt from the Los Angeles Rent Stabilization Ordinance and from the AB 1482 rent cap through November 2039",
-        "5.34% cap rate and 12.94 GRM on current scheduled income, 5.62% at ownership's pro forma rents",
+        "5.36% cap rate and 12.94 GRM on current scheduled income, 5.64% at ownership's pro forma rents",
         "$27,700 per month scheduled across six units and eight individually leased rooms, 12 of 14 lines occupied",
         "In-unit laundry, ductless air conditioning, fire sprinklers, solar on every roof and individually metered 600-amp electrical service",
         "9,607 SF across three buildings on a 7,375 SF RD1.5 lot, seven minutes from the NoHo Arts District Metro station"
@@ -513,7 +513,7 @@
       "overview": [
         "6028 Craner Avenue is an eight-unit new-construction community in North Hollywood, completed in stages between November 2024 and April 2025 on the site of a demolished 1948 house. The front building (6030) and rear building (6028) are three-story duplexes with roof decks and attached garages, each with a lower-level unit converted from the rec room under state ADU law. Two detached lofts (6026 and 6026 1/2) complete the eight. The county carries the three structures at 9,607 SF on a 7,375 SF lot.",
         "The unit mix is two 1 bed / 1 bath lofts, one studio, one 1 bed / 1 bath, two 3 bed / 3 bath townhomes and two 4 bed / 4 bath townhomes. The four bedrooms are leased by the room, eight rooms at $1,375 to $1,500, which is why the rent roll carries 14 lines for eight units. Scheduled income is $27,700 per month with the two vacant rooms at their $1,400 asking rent; the six whole units are fully leased at $1,900 to $3,850.",
-        "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.34% return on current scheduled income and 5.62% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
+        "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.36% return on current scheduled income and 5.64% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
       ],
       "location_title": "North Hollywood, East of Vineland, Minutes From the Arts District",
       "location_narrative": [
@@ -538,7 +538,7 @@
         "The four bedrooms are the plan a buyer will question. Leased by the room they gross $5,625 and $5,900 per month; achieved whole-unit rents on new four-bedroom product are $4,895 at 11025 Blix and $5,250 at 10828 Hesby. The room strategy therefore earns roughly $500 to $1,000 per unit per month over whole-unit leasing, at the cost of eight leases to manage instead of two. This analysis carries the room income as it stands, with a 5% vacancy reserve rather than the 3% used on whole-unit buildings, and discloses the whole-unit alternative rather than hiding it."
       ],
       "valuation_narrative": [
-        "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,982, including taxes reassessed at the list price, produce net operating income of $229,698, a 5.34% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $241,736 and the cap rate 5.62%. The price is $537,500 per unit and $448 per SF.",
+        "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
         "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
       ],
       "strategy": [
@@ -548,7 +548,7 @@
         },
         {
           "title": "Price Against Per Square Foot and Yield, Not Per Unit",
-          "copy": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.34% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
+          "copy": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.36% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
         },
         {
           "title": "Show the Room Income Both Ways",
@@ -570,7 +570,7 @@
         }
       ],
       "disclosures": [
-        "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) and reserves ($3,000) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year. A 4.0% management fee is added; ownership books no management cost.",
+        "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
         "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
       ],
       "gallery": [
@@ -1144,7 +1144,7 @@
           ],
           "strategy_copy": [
             "Most Los Angeles multifamily asks a buyer to inherit rent control. This one does not. Certificates of occupancy issued in November 2024 and April 2025 put the property outside the City's Rent Stabilization Ordinance permanently and outside the AB 1482 state cap until late 2039. Every lease resets to market on turnover for the next 13 years, and the campaign should say so in its first line.",
-            "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.34% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive.",
+            "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.36% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive.",
             "Two of the eight units are leased by the room and gross $11,525 per month. Some buyers will pay for that; others will underwrite the two units as whole four bedrooms at $4,900 to $5,250 each and price the difference out. The offering should show both, because a buyer who finds the room income on their own treats it as a problem, and a buyer who is shown it treats it as a choice."
           ],
           "narrative": [
@@ -1155,7 +1155,7 @@
           "highlights": [
             "Completed 2024 to 2025: two three-story duplexes with roof decks and four ADUs, all with certificates of occupancy",
             "Exempt from the Los Angeles Rent Stabilization Ordinance and from the AB 1482 rent cap through November 2039",
-            "5.34% cap rate and 12.94 GRM on current scheduled income, 5.62% at ownership's pro forma rents",
+            "5.36% cap rate and 12.94 GRM on current scheduled income, 5.64% at ownership's pro forma rents",
             "$27,700 per month scheduled across six units and eight individually leased rooms, 12 of 14 lines occupied",
             "In-unit laundry, ductless air conditioning, fire sprinklers, solar on every roof and individually metered 600-amp electrical service",
             "9,607 SF across three buildings on a 7,375 SF RD1.5 lot, seven minutes from the NoHo Arts District Metro station"
@@ -1163,7 +1163,7 @@
           "overview": [
             "6028 Craner Avenue is an eight-unit new-construction community in North Hollywood, completed in stages between November 2024 and April 2025 on the site of a demolished 1948 house. The front building (6030) and rear building (6028) are three-story duplexes with roof decks and attached garages, each with a lower-level unit converted from the rec room under state ADU law. Two detached lofts (6026 and 6026 1/2) complete the eight. The county carries the three structures at 9,607 SF on a 7,375 SF lot.",
             "The unit mix is two 1 bed / 1 bath lofts, one studio, one 1 bed / 1 bath, two 3 bed / 3 bath townhomes and two 4 bed / 4 bath townhomes. The four bedrooms are leased by the room, eight rooms at $1,375 to $1,500, which is why the rent roll carries 14 lines for eight units. Scheduled income is $27,700 per month with the two vacant rooms at their $1,400 asking rent; the six whole units are fully leased at $1,900 to $3,850.",
-            "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.34% return on current scheduled income and 5.62% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
+            "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.36% return on current scheduled income and 5.64% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
           ]
         },
         "location": {
@@ -1210,11 +1210,11 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,982, including taxes reassessed at the list price, produce net operating income of $229,698, a 5.34% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $241,736 and the cap rate 5.62%. The price is $537,500 per unit and $448 per SF.",
+            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) and reserves ($3,000) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year. A 4.0% management fee is added; ownership books no management cost.",
+            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
             "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
@@ -1345,7 +1345,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.34% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
+          "text": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.36% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
         },
         {
           "id": "strategy-3",
@@ -1394,7 +1394,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.34% cap rate and 12.94 GRM on current scheduled income, 5.62% at ownership's pro forma rents"
+          "text": "5.36% cap rate and 12.94 GRM on current scheduled income, 5.64% at ownership's pro forma rents"
         },
         {
           "id": "highlight-4",
@@ -1456,7 +1456,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.34% return on current scheduled income and 5.62% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
+          "text": "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.36% return on current scheduled income and 5.64% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
         },
         {
           "id": "location-title-1",
@@ -1645,7 +1645,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,982, including taxes reassessed at the list price, produce net operating income of $229,698, a 5.34% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $241,736 and the cap rate 5.62%. The price is $537,500 per unit and $448 per SF."
+          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
         },
         {
           "id": "valuation-2",
@@ -1665,7 +1665,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) and reserves ($3,000) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year. A 4.0% management fee is added; ownership books no management cost."
+          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost."
         },
         {
           "id": "disclosure-2",
@@ -1710,7 +1710,7 @@
           ],
           "strategy_copy": [
             "Most Los Angeles multifamily asks a buyer to inherit rent control. This one does not. Certificates of occupancy issued in November 2024 and April 2025 put the property outside the City's Rent Stabilization Ordinance permanently and outside the AB 1482 state cap until late 2039. Every lease resets to market on turnover for the next 13 years, and the campaign should say so in its first line.",
-            "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.34% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive.",
+            "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.36% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive.",
             "Two of the eight units are leased by the room and gross $11,525 per month. Some buyers will pay for that; others will underwrite the two units as whole four bedrooms at $4,900 to $5,250 each and price the difference out. The offering should show both, because a buyer who finds the room income on their own treats it as a problem, and a buyer who is shown it treats it as a choice."
           ],
           "narrative": [
@@ -1721,7 +1721,7 @@
           "highlights": [
             "Completed 2024 to 2025: two three-story duplexes with roof decks and four ADUs, all with certificates of occupancy",
             "Exempt from the Los Angeles Rent Stabilization Ordinance and from the AB 1482 rent cap through November 2039",
-            "5.34% cap rate and 12.94 GRM on current scheduled income, 5.62% at ownership's pro forma rents",
+            "5.36% cap rate and 12.94 GRM on current scheduled income, 5.64% at ownership's pro forma rents",
             "$27,700 per month scheduled across six units and eight individually leased rooms, 12 of 14 lines occupied",
             "In-unit laundry, ductless air conditioning, fire sprinklers, solar on every roof and individually metered 600-amp electrical service",
             "9,607 SF across three buildings on a 7,375 SF RD1.5 lot, seven minutes from the NoHo Arts District Metro station"
@@ -1729,7 +1729,7 @@
           "overview": [
             "6028 Craner Avenue is an eight-unit new-construction community in North Hollywood, completed in stages between November 2024 and April 2025 on the site of a demolished 1948 house. The front building (6030) and rear building (6028) are three-story duplexes with roof decks and attached garages, each with a lower-level unit converted from the rec room under state ADU law. Two detached lofts (6026 and 6026 1/2) complete the eight. The county carries the three structures at 9,607 SF on a 7,375 SF lot.",
             "The unit mix is two 1 bed / 1 bath lofts, one studio, one 1 bed / 1 bath, two 3 bed / 3 bath townhomes and two 4 bed / 4 bath townhomes. The four bedrooms are leased by the room, eight rooms at $1,375 to $1,500, which is why the rent roll carries 14 lines for eight units. Scheduled income is $27,700 per month with the two vacant rooms at their $1,400 asking rent; the six whole units are fully leased at $1,900 to $3,850.",
-            "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.34% return on current scheduled income and 5.62% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
+            "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.36% return on current scheduled income and 5.64% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
           ]
         },
         "location": {
@@ -1776,11 +1776,11 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,982, including taxes reassessed at the list price, produce net operating income of $229,698, a 5.34% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $241,736 and the cap rate 5.62%. The price is $537,500 per unit and $448 per SF.",
+            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) and reserves ($3,000) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year. A 4.0% management fee is added; ownership books no management cost.",
+            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
             "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
@@ -1911,7 +1911,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.34% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
+          "text": "The 2025 new-construction sales in North Hollywood are four-unit buildings of large whole units at $587,500 to $837,500 per unit. Quoting per-unit figures against an eight-unit building with four ADUs invites a discount. Leading with $448 per SF inside a $403 to $519 range, and a 5.36% going-in yield inside a 5.09% to 5.82% closed range, frames the same price as market rather than aggressive."
         },
         {
           "id": "strategy-3",
@@ -1960,7 +1960,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.34% cap rate and 12.94 GRM on current scheduled income, 5.62% at ownership's pro forma rents"
+          "text": "5.36% cap rate and 12.94 GRM on current scheduled income, 5.64% at ownership's pro forma rents"
         },
         {
           "id": "highlight-4",
@@ -2022,7 +2022,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.34% return on current scheduled income and 5.62% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
+          "text": "At the recommended $4.3M the property prices at $537,500 per unit and $448 per SF, a 5.36% return on current scheduled income and 5.64% at ownership's pro forma rents. Every closed new-construction comparable is a four-unit building of large whole units, so the per-unit figure sits below all of them by design, while the per-square-foot figure sits in the middle of a $403 to $519 range and the yield sits inside a 5.09% to 5.82% closed range."
         },
         {
           "id": "location-title-1",
@@ -2211,7 +2211,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,982, including taxes reassessed at the list price, produce net operating income of $229,698, a 5.34% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $241,736 and the cap rate 5.62%. The price is $537,500 per unit and $448 per SF."
+          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
         },
         {
           "id": "valuation-2",
@@ -2231,7 +2231,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) and reserves ($3,000) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year. A 4.0% management fee is added; ownership books no management cost."
+          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost."
         },
         {
           "id": "disclosure-2",
@@ -2380,28 +2380,28 @@
     "deal_id": "6028-craner",
     "domains": {
       "identity": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610",
-      "financial_inputs": "c09a539a2c5e47b10ce9c1c561647b94d3515d07a0d956786ff271387f9f290e",
-      "pricing_decision": "fa78c0204d8f5bfd83d600fbd4e3c263dc610c545169ac6208221751ee5864ba",
-      "sale_comps": "fb384540603bd85920026f2ae37ab5543369799b44746c38d8b00f0a960475d8",
+      "financial_inputs": "268086bcb9078c5eed81817ccfb67db4b5f1faac3c4f9aedc2ea1548af97fd2a",
+      "pricing_decision": "4cce614c6046eb43becf160df2893c16fb372a2efe8854038ade418be32fcb03",
+      "sale_comps": "cfe6e12b57e87ab152b100ed7d0b373760877905241770721133895478d814f2",
       "rent_comps": "f3c551d6ada37611419700c0d9d8203d2b8fcf303e33e6569f5c20c0103e0d67",
-      "copy": "1104bbcf2ab3c23dc673a6981c7ac6d8d1c2ec48ef5e175d93ef512b71dc2eb8",
+      "copy": "8853a1ca2636194a4ce2e8ad8f316b513e22219acd3f6f7088f01ee017a330e1",
       "media_selection": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97",
       "regulatory_conclusions": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"
     },
     "presentation_hashes": {
       "identity": "099303489472068a503634864c82a0ae9e88db332347c6add6d62077a62a285f",
-      "financial_inputs": "e109997a4b34aa8b0a4e224244204b7d39cbd88da9548bfbfad5f5fc421f52ae",
-      "pricing_decision": "48629c34fa36f4ebfd9fa466f0e077c1b205d5508e78b80d7c2eb3b184aeee44",
+      "financial_inputs": "1fdef480027298af303134bf60f38859519b107849360127a42417d3e1f993ca",
+      "pricing_decision": "8f2bfaa7f08bce460062461004c17307b744c0fbfb9ff68c5582f7d38eee9d13",
       "sale_comps": "304c56debc764e12ce330798fe6330cfc69de6704251b9287079a9185500b7e7",
       "rent_comps": "d66795ee34560973f7e09cd1ab68050986bedc7bc541e6876ffa6d22ad5dbfa0",
-      "copy": "b9017c96a21b94843cd19635522ea688e3523a5e8265c61d343d1bd72b244a35",
+      "copy": "dd79bfd81b9ec3667df12b0c70fddf4dedb5d4012fa84af4d8543771a2bdbc71",
       "media_selection": "674b400cb36945f46808caba408d7ee67eb9987332189e00132c133aeeabc570",
       "regulatory_conclusions": "2c0f8aeb9892955d917c5f584b9bbad751befa9a119c32e9bcc247ba014c5102"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-01T22:24:53+00:00",
+    "generated": "2026-09-01T22:55:05+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
