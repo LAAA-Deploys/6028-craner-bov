@@ -1,0 +1,339 @@
+{
+  "entries": [
+    {
+      "property": "6028-craner",
+      "category": "subject",
+      "lat": 34.180283,
+      "lng": -118.369016,
+      "place_id": "lightbox:0205C9H3GKH1HMU7639VYD",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "6028 Craner Ave, North Hollywood. LightBox parcel coordinate for AIN 2414-004-025 shifted onto the roof of the front duplex (6030), verified against Google satellite imagery 2026-09-01 (exc-pin-provisional)."
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.17305,
+      "lng": -118.363713,
+      "place_id": "census:2415-022-028",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5648 Cartwright Ave, North Hollywood. MLS, 5648 Cartwright Ave (AIN 2415-022-028), verified 2026-09-01.",
+      "order": 1
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.173154,
+      "lng": -118.363713,
+      "place_id": "census:5654-cartwright",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5654 Cartwright Ave, North Hollywood. MLS, 5654 Cartwright Ave, verified 2026-09-01.",
+      "order": 2
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.169718,
+      "lng": -118.380506,
+      "place_id": "census:2350-009-026",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11447 Cumpston St, North Hollywood. MLS, 11447 Cumpston St (AIN 2350-009-026), verified 2026-09-01.",
+      "order": 3
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.157602,
+      "lng": -118.363932,
+      "place_id": "census:2421-017-014",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "10706 Camarillo St, North Hollywood. MLS, 10706 Camarillo St (AIN 2421-017-014), verified 2026-09-01.",
+      "order": 4
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.172667,
+      "lng": -118.362578,
+      "place_id": "census:2415-023-029",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5626 Willowcrest Ave, North Hollywood. MLS, 5626 Willowcrest Ave (AIN 2415-023-029), verified 2026-09-01.",
+      "order": 5
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.174741,
+      "lng": -118.372001,
+      "place_id": "census:2337-028-019",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5743 Case Ave, North Hollywood. LA County Assessor doc 0404649 (AIN 2337-028-019), recorded 2026-06-03, verified 2026-09-01.",
+      "order": 6
+    },
+    {
+      "property": "6028-craner",
+      "category": "sold",
+      "lat": 34.15499,
+      "lng": -118.397128,
+      "place_id": "lacounty:2356-037-007",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "4637 Laurel Canyon Blvd, Valley Village. Marcus & Millichap offering memorandum and LA County Assessor deed (AIN 2356-037-007), recorded 2025-08-29, verified 2026-09-01.",
+      "order": 7
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.172598,
+      "lng": -118.362578,
+      "place_id": "census:2415-023-030",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5622 Willowcrest Ave, North Hollywood (pending). MLS, 5622 Willowcrest Ave (AIN 2415-023-030), verified 2026-09-01.",
+      "order": 1
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.172871,
+      "lng": -118.377263,
+      "place_id": "lacounty:2337-038-008",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11312 Martha St, North Hollywood (active). Public listing, 11312 Martha St (AIN 2337-038-008), verified 2026-09-01.",
+      "order": 2
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.187281,
+      "lng": -118.388933,
+      "place_id": "lacounty:2322-016-037",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11730 Gilmore St, North Hollywood (active). Public listing, 11730 Gilmore St (AIN 2322-016-037), listed 2026-07-17, verified 2026-09-01.",
+      "order": 3
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.161468,
+      "lng": -118.366859,
+      "place_id": "lacounty:2419-005-009",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "10828 Hesby St, North Hollywood (active). Offering memorandum 2025-12-04, 10828 Hesby St (AIN 2419-005-009), verified 2026-09-01.",
+      "order": 4
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.186902,
+      "lng": -118.380917,
+      "place_id": "lacounty:2335-016-011",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "6400 Farmdale Ave, North Hollywood (active). Offering memorandum 2026-04-13, 6400 Farmdale Ave (AIN 2335-016-011), verified 2026-09-01.",
+      "order": 5
+    },
+    {
+      "property": "6028-craner",
+      "category": "active",
+      "lat": 34.156901,
+      "lng": -118.371474,
+      "place_id": "lacounty:2353-026-024",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11025 Blix St, North Hollywood (active). LAAA Team listing, 11025 Blix St (AIN 2353-026-024), verified 2026-09-01.",
+      "order": 6
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.169218,
+      "lng": -118.377831,
+      "place_id": "lightbox:2350-012-222",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Chandler Apartments, 11327 Chandler Blvd, North Hollywood. RentCafe, Chandler Apartments studio, verified 2026-09-01.",
+      "order": 1
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.18262,
+      "lng": -118.394247,
+      "place_id": "lightbox:2334-011-030",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Alexan NoHo West, 11950 Erwin St, North Hollywood. RentCafe, Alexan NoHo West studio, verified 2026-09-01.",
+      "order": 2
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.160557,
+      "lng": -118.369369,
+      "place_id": "lacounty:2421-010-024",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Morrison Park, 10932 Morrison St, North Hollywood. RentCafe, Morrison Park studio, verified 2026-09-01.",
+      "order": 3
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.169218,
+      "lng": -118.377831,
+      "place_id": "lightbox:2350-012-222",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Chandler Apartments, 11327 Chandler Blvd, North Hollywood. RentCafe, Chandler Apartments one bedroom, verified 2026-09-01.",
+      "order": 4
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.167529,
+      "lng": -118.371606,
+      "place_id": "lacounty:2350-014-035",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "The Weddington, 11058 Chandler Blvd, North Hollywood. RentCafe, The Weddington one bedroom, verified 2026-09-01.",
+      "order": 5
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.161096,
+      "lng": -118.376908,
+      "place_id": "lacounty:2353-013-054",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Woodland Trio, 11265 Morrison St, North Hollywood. RentCafe, Woodland Trio one bedroom, verified 2026-09-01.",
+      "order": 6
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.172894,
+      "lng": -118.373818,
+      "place_id": "lacounty:2337-031-032",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Fair Ave Apartments, 5624 Fair Ave, North Hollywood. RentCafe, Fair Ave Apts one bedroom, verified 2026-09-01.",
+      "order": 7
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.185993,
+      "lng": -118.362466,
+      "place_id": "lacounty:2414-018-005",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "10620 NoHo, 10620 Victory Blvd, North Hollywood. RentCafe, 10620 NoHo one bedroom, verified 2026-09-01.",
+      "order": 8
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.174741,
+      "lng": -118.372001,
+      "place_id": "census:2337-028-019",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "5743 Case Ave, North Hollywood. MLS listing income, 5743 Case Ave, all four units, verified 2026-09-01.",
+      "order": 9
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.154452,
+      "lng": -118.371244,
+      "place_id": "census:2353-035-004",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11026 Hortense St, North Hollywood. 11492 Albers OM rent comparables, Hortense St detached homes, verified 2026-09-01.",
+      "order": 10
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.165195,
+      "lng": -118.357184,
+      "place_id": "lacounty:2417-018-029",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Madison Toluca, 10407 Magnolia Blvd, North Hollywood. RentCafe, Madison Toluca three bedroom, verified 2026-09-01.",
+      "order": 11
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.163394,
+      "lng": -118.374941,
+      "place_id": "lacounty:2353-004-025",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "The Guild, 11201 Otsego St, North Hollywood. RentCafe, The Guild three bedroom, verified 2026-09-01.",
+      "order": 12
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.156901,
+      "lng": -118.371474,
+      "place_id": "lacounty:2353-026-024",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "11025 Blix St, North Hollywood. LAAA Team listing rent roll, 11025 Blix St front townhome, verified 2026-09-01.",
+      "order": 13
+    },
+    {
+      "property": "6028-craner",
+      "category": "rent",
+      "lat": 34.161468,
+      "lng": -118.366859,
+      "place_id": "lacounty:2419-005-009",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "10828 Hesby St, North Hollywood. Listing rent roll, 10828 Hesby St four bedroom, verified 2026-09-01.",
+      "order": 14
+    }
+  ],
+  "renders": {
+    "images/maps-portfolio-subjects.png": "57bc79fdca91fd75a00eccd98f24165651308371b09c27e1e455cc55889c2b79",
+    "images/maps-portfolio-subjects-tall.png": "5d7b19cf98253323db76cc0bd6522a7423030ff7745e4c041d793adec6dd5b8d",
+    "images/maps-6028-craner-subject.png": "cf548a67dfe540a6199554e9f6b8cb7f4af2386c6f6916106df2c232551dbadf",
+    "images/maps-6028-craner-subject-tall.png": "8f7c97866ad6e0ef6e4ebe340728b1816b9f131c624890a82a0f3575b17332d3",
+    "images/maps-6028-craner-sale-comps.png": "57296297a4bbbc110bf3b8fea2428a5c92362a75ffd8693f36b45e9de99ffbd5",
+    "images/maps-6028-craner-sale-comps-tall.png": "b6adaaea584bb7838c2774611fd748ad38fd4d85316ac12f4eb02cab56caf5a0",
+    "images/maps-6028-craner-rent-comps.png": "db509b6d390dbd49fb3de22c6adb1f27b74e754de65798ce3038e555e463bac3",
+    "images/maps-6028-craner-rent-comps-tall.png": "f9142e5bfcc1f1c5e413edb707dcfa36e5b441f1abfb03ca47a3cc2d50ac9946",
+    "images/maps-6028-craner-active-comps.png": "b72e34fed97cc47e470429c7969c9e16b2b5d2f1bf716c7aba45f67e85008445",
+    "images/maps-6028-craner-active-comps-tall.png": "70f6eb7fd50edb94d9971a10b7dc92332b0ff3f1f958effe797fbde61ababe0a",
+    "images/maps-6028-craner-closings.png": "3e5f0cf2c8ccc796dc37ff530bed45805231d0b29a161c2cd1153fc1e23b589d"
+  },
+  "closings": {
+    "6028-craner": {
+      "source": "https://www.laaa.com/track-record",
+      "pulled": "2026-09-01T21:10:05+00:00",
+      "basis": {
+        "type": "submarket",
+        "label": "North Hollywood"
+      },
+      "apartment_sales": 35,
+      "other_closings": 7,
+      "apartment_markers": 34,
+      "other_markers": 7,
+      "render": "images/maps-6028-craner-closings.png"
+    }
+  }
+}

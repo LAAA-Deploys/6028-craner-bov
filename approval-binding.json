@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "deal",
+  "deal_id": "6028-craner",
+  "portfolio_id": null,
+  "package_version": "v4",
+  "approved_at": "2026-09-01T21:39:34.881191+00:00",
+  "approver": "Filip Niculete",
+  "price": {
+    "value": 4300000
+  },
+  "approved_exception_ids": [
+    "exc-benchmark-lines",
+    "exc-coliving",
+    "exc-comp-income",
+    "exc-parking",
+    "exc-pin-provisional",
+    "exc-t12-leaseup",
+    "exc-unit-sf",
+    "exc-vacant-asking"
+  ],
+  "domains": {
+    "copy": {
+      "content_sha256": "eeff6cef78331941edb1edfa45523f94d9bae0ae88becc9aeb05887bd2fb62b9"
+    },
+    "financial_inputs": {
+      "content_sha256": "88efb608af06b38828c484671bbfe2010fde9591aff2e98a907769df46e667f6"
+    },
+    "identity": {
+      "content_sha256": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610"
+    },
+    "media_selection": {
+      "content_sha256": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97"
+    },
+    "pricing_decision": {
+      "content_sha256": "65635b8788a56f351c653bc634366c381263e574d082831735448fba9479fd86"
+    },
+    "regulatory_conclusions": {
+      "content_sha256": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"
+    },
+    "rent_comps": {
+      "content_sha256": "f3c551d6ada37611419700c0d9d8203d2b8fcf303e33e6569f5c20c0103e0d67"
+    },
+    "sale_comps": {
+      "content_sha256": "e171f1e0b7683ff4798067451fad23497d6b50b88c61f86b2dc7b4c07c46a6cd"
+    }
+  },
+  "legacy_snapshot": false,
+  "legacy_label": null,
+  "members": null
+}
