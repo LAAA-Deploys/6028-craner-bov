@@ -223,8 +223,8 @@
           "price_per_sf": 447.59029874050174,
           "grm_current": 12.936221419975933,
           "grm_market": 12.44212962962963,
-          "cap_current": 5.355767441860465,
-          "cap_market": 5.635720930232558
+          "cap_current": 5.36246511627907,
+          "cap_market": 5.642418604651163
         },
         {
           "label": "Range top",
@@ -233,8 +233,8 @@
           "price_per_sf": 463.2039138128448,
           "grm_current": 13.38748495788207,
           "grm_market": 12.876157407407407,
-          "cap_current": 5.137334831460675,
-          "cap_market": 5.407851685393259
+          "cap_current": 5.143806741573034,
+          "cap_market": 5.414323595505618
         },
         {
           "label": "Midpoint",
@@ -243,8 +243,8 @@
           "price_per_sf": 447.59029874050174,
           "grm_current": 12.936221419975933,
           "grm_market": 12.44212962962963,
-          "cap_current": 5.355767441860465,
-          "cap_market": 5.635720930232558
+          "cap_current": 5.36246511627907,
+          "cap_market": 5.642418604651163
         },
         {
           "label": "Range bottom",
@@ -253,8 +253,8 @@
           "price_per_sf": 431.9766836681586,
           "grm_current": 12.484957882069795,
           "grm_market": 12.008101851851851,
-          "cap_current": 5.589990361445783,
-          "cap_market": 5.88006265060241
+          "cap_current": 5.596930120481928,
+          "cap_market": 5.887002409638555
         }
       ],
       "scheduled_rent": [
@@ -262,30 +262,30 @@
         28800.0
       ],
       "monthly_sgi": [
-        28275.0,
-        29375.0
+        28300.0,
+        29400.0
       ],
       "additional_income": [
-        575.0,
-        575.0
+        600.0,
+        600.0
       ],
       "grm_current": 12.936221419975933,
       "grm_market": 12.44212962962963,
-      "cap_current": 5.355767441860465,
-      "cap_market": 5.635720930232558,
+      "cap_current": 5.36246511627907,
+      "cap_market": 5.642418604651163,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 230298,
-      "noi_market": 242336,
+      "noi_current": 230586,
+      "noi_market": 242624,
       "tax_rate": 1.1244,
       "tax_anchor": {
         "ad_valorem": 48349,
         "flat_assessments": 0,
         "expense_line": "Real Estate Taxes"
       },
-      "expense_total": 92382,
-      "expense_per_unit": 11547.75,
-      "expense_per_sf": 9.616113250754658,
+      "expense_total": 92394,
+      "expense_per_unit": 11549.25,
+      "expense_per_sf": 9.617362339960446,
       "unit_mix": [
         {
           "count": 2,
@@ -340,63 +340,63 @@
       ],
       "operating": {
         "sgi": [
-          339300,
-          352500
+          339600,
+          352800
         ],
         "vacancy": [
           16620,
           17280
         ],
-        "vacancy_pct": 4.898320070733863,
+        "vacancy_pct": 4.893992932862191,
         "vacancy_only": [
           16620,
           17280
         ],
-        "vacancy_only_pct": 4.898320070733863,
+        "vacancy_only_pct": 4.893992932862191,
         "credit_loss": [
           0,
           0
         ],
         "credit_loss_pct": 0.0,
         "goi": [
-          322680,
-          335220
+          322980,
+          335520
         ],
         "expenses": [
-          92382,
-          92884
+          92394,
+          92896
         ],
         "expense_ratio": [
-          28.62960208255857,
-          27.708370622277904
+          28.606724874605238,
+          27.687172150691463
         ],
         "noi": [
-          230298,
-          242336
+          230586,
+          242624
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          230298.0,
-          242336.0
+          230586.0,
+          242624.0
         ],
         "pretax_cf_pct": [
-          5.355767441860465,
-          5.635720930232558
+          5.36246511627907,
+          5.642418604651163
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          230298.0,
-          242336.0
+          230586.0,
+          242624.0
         ],
         "total_return_pct": [
-          5.355767441860465,
-          5.635720930232558
+          5.36246511627907,
+          5.642418604651163
         ]
       },
       "expense_lines": [
@@ -444,8 +444,8 @@
         ],
         [
           "Management Fee (4.0% of EGI)",
-          12907,
-          13409,
+          12919,
+          13421,
           "11"
         ]
       ],
@@ -492,7 +492,7 @@
         ],
         "1": [
           "Additional Income",
-          "Parking income at $575 per month, or $6,900 per year, the steady-state monthly collection on the trailing statement. Ownership's sizing sheet carries eight rented spaces at $12,000 per year, which is treated as upside; incidental pet, late and NSF fees ($1,196 booked) are not carried."
+          "Parking & Pet: $600 per month, or $7,200 per year, made up of $575 of parking (the steady-state monthly collection on the trailing statement) and $25 of pet rent. Ownership's sizing sheet carries eight rented spaces at $12,000 per year, which is treated as upside; late and NSF fees are not carried."
         ]
       },
       "income_notes": {
@@ -538,7 +538,7 @@
         "The four bedrooms are the plan a buyer will question. Leased by the room they gross $5,625 and $5,900 per month; achieved whole-unit rents on new four-bedroom product are $4,895 at 11025 Blix and $5,250 at 10828 Hesby. The room strategy therefore earns roughly $500 to $1,000 per unit per month over whole-unit leasing, at the cost of eight leases to manage instead of two. This analysis carries the room income as it stands, with a 5% vacancy reserve rather than the 3% used on whole-unit buildings, and discloses the whole-unit alternative rather than hiding it."
       ],
       "valuation_narrative": [
-        "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
+        "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $7,200 of parking and pet income gives $322,980 of effective gross income; operating expenses of $92,394, including taxes reassessed at the list price, produce net operating income of $230,586, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,624 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
         "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
       ],
       "strategy": [
@@ -571,7 +571,7 @@
       ],
       "disclosures": [
         "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
-        "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
+        "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
       ],
       "gallery": [
         {
@@ -1023,14 +1023,14 @@
       "map_points": [],
       "track_record": {
         "all": {
-          "count": 493,
-          "volume": 1553028899.5,
-          "units": 4704
+          "count": 494,
+          "volume": 1556428899.5,
+          "units": 4719
         },
         "asset_class": {
-          "count": 341,
-          "volume": 1160435729.5,
-          "units": 4688
+          "count": 342,
+          "volume": 1163835729.5,
+          "units": 4703
         },
         "asset_class_label": "Apartments",
         "local": {
@@ -1210,12 +1210,12 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
+            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $7,200 of parking and pet income gives $322,980 of effective gross income; operating expenses of $92,394, including taxes reassessed at the list price, produce net operating income of $230,586, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,624 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
             "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
-            "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
+            "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
       },
@@ -1645,7 +1645,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
+          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $7,200 of parking and pet income gives $322,980 of effective gross income; operating expenses of $92,394, including taxes reassessed at the list price, produce net operating income of $230,586, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,624 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
         },
         {
           "id": "valuation-2",
@@ -1675,7 +1675,7 @@
             "pricing:risks"
           ],
           "framed_as": null,
-          "text": "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
+          "text": "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
         }
       ],
       "exceptions": []
@@ -1776,12 +1776,12 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
+            "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $7,200 of parking and pet income gives $322,980 of effective gross income; operating expenses of $92,394, including taxes reassessed at the list price, produce net operating income of $230,586, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,624 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF.",
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
             "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost.",
-            "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
+            "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
       },
@@ -2211,7 +2211,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $6,900 of parking income gives $322,680 of effective gross income; operating expenses of $92,382, including taxes reassessed at the list price, produce net operating income of $230,298, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,336 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
+          "text": "The recommended list price is $4.3M, inside an opinion-of-value range of $4.15M to $4.45M. Current scheduled income of $332,400 less a 5% vacancy reserve plus $7,200 of parking and pet income gives $322,980 of effective gross income; operating expenses of $92,394, including taxes reassessed at the list price, produce net operating income of $230,586, a 5.36% cap rate and a 12.94 gross rent multiplier. At ownership's pro forma rents of $345,600 the net operating income is $242,624 and the cap rate 5.64%. The price is $537,500 per unit and $448 per SF."
         },
         {
           "id": "valuation-2",
@@ -2241,7 +2241,7 @@
             "pricing:risks"
           ],
           "framed_as": null,
-          "text": "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Parking income is carried at $575 per month ($6,900); ownership's sizing sheet carries $12,000 from eight rented spaces, which is treated as upside, and incidental fee income is not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
+          "text": "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
         }
       ],
       "exceptions": []
@@ -2380,28 +2380,28 @@
     "deal_id": "6028-craner",
     "domains": {
       "identity": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610",
-      "financial_inputs": "268086bcb9078c5eed81817ccfb67db4b5f1faac3c4f9aedc2ea1548af97fd2a",
-      "pricing_decision": "4cce614c6046eb43becf160df2893c16fb372a2efe8854038ade418be32fcb03",
+      "financial_inputs": "2c229586452ea6a0faa785afe82044fb959080b27766d84bcb8796286bade20f",
+      "pricing_decision": "503b469b1254bf205a8fe91b5aeb7aa2a0616224b10efc9b6917707bc1d7ce13",
       "sale_comps": "cfe6e12b57e87ab152b100ed7d0b373760877905241770721133895478d814f2",
       "rent_comps": "f3c551d6ada37611419700c0d9d8203d2b8fcf303e33e6569f5c20c0103e0d67",
-      "copy": "8853a1ca2636194a4ce2e8ad8f316b513e22219acd3f6f7088f01ee017a330e1",
+      "copy": "e3be4c9effa85f8e89ab3a519007046dc18605f7ab35170706457ff41aa10a0c",
       "media_selection": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97",
       "regulatory_conclusions": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"
     },
     "presentation_hashes": {
       "identity": "099303489472068a503634864c82a0ae9e88db332347c6add6d62077a62a285f",
-      "financial_inputs": "1fdef480027298af303134bf60f38859519b107849360127a42417d3e1f993ca",
-      "pricing_decision": "8f2bfaa7f08bce460062461004c17307b744c0fbfb9ff68c5582f7d38eee9d13",
+      "financial_inputs": "4b6455dfac8b17895005033fa8b343f9aa8c643b08225e304960ed4d510124e6",
+      "pricing_decision": "1a6ea2f85cd92dc548d1fa13ed80e90cfe656e62ae4d24a22ea03f0dc51ad902",
       "sale_comps": "304c56debc764e12ce330798fe6330cfc69de6704251b9287079a9185500b7e7",
       "rent_comps": "d66795ee34560973f7e09cd1ab68050986bedc7bc541e6876ffa6d22ad5dbfa0",
-      "copy": "dd79bfd81b9ec3667df12b0c70fddf4dedb5d4012fa84af4d8543771a2bdbc71",
+      "copy": "81bf79091f80c672782ddf8aa64bbb9b21450bcc68cfd8ff62d95676229c3f07",
       "media_selection": "674b400cb36945f46808caba408d7ee67eb9987332189e00132c133aeeabc570",
       "regulatory_conclusions": "2c0f8aeb9892955d917c5f584b9bbad751befa9a119c32e9bcc247ba014c5102"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-01T22:55:05+00:00",
+    "generated": "2026-09-01T23:09:57+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
@@ -2427,14 +2427,14 @@
     },
     "portfolio_track_record": {
       "all": {
-        "count": 493,
-        "volume": 1553028899.5,
-        "units": 4704
+        "count": 494,
+        "volume": 1556428899.5,
+        "units": 4719
       },
       "asset_class": {
-        "count": 341,
-        "volume": 1160435729.5,
-        "units": 4688
+        "count": 342,
+        "volume": 1163835729.5,
+        "units": 4703
       },
       "asset_class_label": "Apartments",
       "local": null,
