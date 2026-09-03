@@ -314,7 +314,7 @@
           "sf_basis": "labelled_estimate"
         },
         {
-          "unit": "6028-1 (4 rooms: $1,500 / $1,400 / $1,500 / $1,500)",
+          "unit": "6028-1",
           "status": "occupied",
           "count": 1,
           "type": "4 Bed / 4 Bath (leased by the room)",
@@ -326,7 +326,7 @@
           "sf_basis": "labelled_estimate"
         },
         {
-          "unit": "6028-2 (4 rooms: $1,375 / $1,400 vacant / $1,400 vacant / $1,450)",
+          "unit": "6028-2",
           "status": "occupied",
           "count": 1,
           "type": "4 Bed / 4 Bath (leased by the room)",
@@ -2441,7 +2441,7 @@
     "deal_id": "6028-craner",
     "domains": {
       "identity": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610",
-      "financial_inputs": "9619c7636f44a1366f35b718530ff2c38ff037293b410314ef8a785a5f02f66a",
+      "financial_inputs": "657f4f73cabfd7432264ef4b7442f6a84a7d4b33c520fe05cb901932e91b5a1b",
       "pricing_decision": "503b469b1254bf205a8fe91b5aeb7aa2a0616224b10efc9b6917707bc1d7ce13",
       "sale_comps": "cfe6e12b57e87ab152b100ed7d0b373760877905241770721133895478d814f2",
       "rent_comps": "f3c551d6ada37611419700c0d9d8203d2b8fcf303e33e6569f5c20c0103e0d67",
@@ -2451,7 +2451,7 @@
     },
     "presentation_hashes": {
       "identity": "405f26d056004e46a6d11ac5c475357a85f01049269e7254baf04f2549233f3f",
-      "financial_inputs": "566386a154680712ebd76375acaf4adc0fa9e5cb59cb759c5ad416f524447b5b",
+      "financial_inputs": "ecb7a9da66c29be5c03bc072967e3f6bca964b66b4c5ec603bc03594079de64f",
       "pricing_decision": "1a6ea2f85cd92dc548d1fa13ed80e90cfe656e62ae4d24a22ea03f0dc51ad902",
       "sale_comps": "3d4e9388faddfc3a3a398407277dddf6477472cb9a21518d72f0f7528295d565",
       "rent_comps": "d66795ee34560973f7e09cd1ab68050986bedc7bc541e6876ffa6d22ad5dbfa0",
@@ -2462,7 +2462,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-03T23:10:41+00:00",
+    "generated": "2026-09-03T23:32:43+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

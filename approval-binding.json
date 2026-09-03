@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "6028-craner",
   "portfolio_id": null,
-  "package_version": "v9",
-  "approved_at": "2026-09-03T23:10:31.685303+00:00",
+  "package_version": "v10",
+  "approved_at": "2026-09-03T23:32:34.290380+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 4300000
@@ -24,7 +24,7 @@
       "content_sha256": "e3be4c9effa85f8e89ab3a519007046dc18605f7ab35170706457ff41aa10a0c"
     },
     "financial_inputs": {
-      "content_sha256": "9619c7636f44a1366f35b718530ff2c38ff037293b410314ef8a785a5f02f66a"
+      "content_sha256": "657f4f73cabfd7432264ef4b7442f6a84a7d4b33c520fe05cb901932e91b5a1b"
     },
     "identity": {
       "content_sha256": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610"
