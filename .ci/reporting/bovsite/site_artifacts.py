@@ -313,11 +313,20 @@ def generated_paths(site: Path) -> set[str] | None:
     return set(paths)
 
 
-def _allowed(path: str, property_slugs: set[str], generated: set[str]) -> bool:
+#: Comp source documents (an OM the page offers for download) live here. Unlike
+#: images/, the tree is NOT allowed by suffix: a PDF ships only when the built
+#: payload declares its exact path, so a document parked beside a declared one
+#: is refused rather than served.
+DOCUMENTS_DIR = "documents"
+
+
+def _allowed(path: str, property_slugs: set[str], generated: set[str], documents: set[str]) -> bool:
     if path in SITE_ROOT_FILES or path == GENERATED_MANIFEST:
         return True
     if path.startswith("images/"):
         return Path(path).suffix.lower() in IMAGE_SUFFIXES
+    if path.startswith(DOCUMENTS_DIR + "/"):
+        return path in documents and path.lower().endswith(".pdf")
     # BOTH, never either. The grammar bounds what a scaffold path can be; the
     # manifest bounds which of those this build actually wrote.
     if is_scaffold_path(path) and path in generated:
@@ -328,24 +337,31 @@ def _allowed(path: str, property_slugs: set[str], generated: set[str]) -> bool:
     return False
 
 
-def unexpected_files(site: Path, property_slugs: Iterable[str] = ()) -> list[str]:
+def unexpected_files(
+    site: Path, property_slugs: Iterable[str] = (), documents: Iterable[str] = ()
+) -> list[str]:
     """Return every candidate path that is not a declared site artifact.
 
     `property_slugs` comes from the built payload, so a route directory is
     allowed only when the manifest actually declares that property. An
     undeclared `whatever/index.html` is refused rather than assumed to be a
-    route. Scaffold files are allowed only when the build's own manifest names
-    them; an absent manifest allows nothing, and the caller reports that once.
+    route. `documents` likewise comes from the payload: a PDF under documents/
+    is allowed only when the build declared that exact path. Scaffold files are
+    allowed only when the build's own manifest names them; an absent manifest
+    allows nothing, and the caller reports that once.
     """
     generated = generated_paths(site) or set()
     slugs = set(property_slugs)
+    declared = set(documents)
     return [
         path for path in candidate_files(site)
-        if not _allowed(path, slugs, generated)
+        if not _allowed(path, slugs, generated, declared)
     ]
 
 
-def artifact_scope_errors(site: Path, property_slugs: Iterable[str] = ()) -> list[str]:
+def artifact_scope_errors(
+    site: Path, property_slugs: Iterable[str] = (), documents: Iterable[str] = ()
+) -> list[str]:
     """Human-readable refusals for a deploy tree that carries more than the site.
 
     Every message names the CLASS of artifact, never the content. This gate does
@@ -361,7 +377,7 @@ def artifact_scope_errors(site: Path, property_slugs: Iterable[str] = ()) -> lis
         ]
     generated = generated_paths(Path(site)) or set()
     errors = []
-    for path in unexpected_files(site, property_slugs):
+    for path in unexpected_files(site, property_slugs, documents):
         if Path(path).name == INTERNAL_APPROVAL_FILENAME:
             errors.append(
                 f"{path} is the INTERNAL approval record, a deliberation artifact, and a "

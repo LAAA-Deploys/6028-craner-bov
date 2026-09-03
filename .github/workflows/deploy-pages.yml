@@ -176,6 +176,32 @@ jobs:
               destination = Path("_site") / relative
               destination.parent.mkdir(parents=True, exist_ok=True)
               shutil.copy2(source, destination)
+
+          # Comp documents (an active listing's OM offered for download). A
+          # PDF is staged only when the built payload DECLARES it and a page
+          # links it; documents/ is never copied as a tree.
+          declared = {d for d in data.get("documents") or [] if isinstance(d, str)}
+          referenced_documents = set()
+          for page in Path("_site").rglob("*.html"):
+              markup = page.read_text(encoding="utf-8")
+              referenced_documents.update(
+                  unescape(path) for path in re.findall(r'href=["\'](documents/[^"\']+)["\']', markup))
+          documents_root = Path("documents").resolve()
+          for relative in sorted(referenced_documents):
+              if relative not in declared:
+                  raise SystemExit(f"FAIL: page links an undeclared document: {relative}")
+              source = Path(relative)
+              try:
+                  source.resolve().relative_to(documents_root)
+              except ValueError:
+                  raise SystemExit(f"FAIL: referenced document escapes documents/: {source}")
+              if source.suffix.lower() != ".pdf":
+                  raise SystemExit(f"FAIL: referenced document is not a PDF: {source}")
+              if not source.is_file():
+                  raise SystemExit(f"FAIL: missing referenced document: {source}")
+              destination = Path("_site") / relative
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(source, destination)
           PY
           if find _site -type f \( -name '*.py' -o -name '*.mjs' -o -name '*.json' \
                                    -o -name '*.md' -o -name '*.yml' \) | grep -q .; then

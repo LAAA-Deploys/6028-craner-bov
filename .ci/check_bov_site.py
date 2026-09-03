@@ -434,9 +434,13 @@ def main(site):
     # Subject prices come from the data file, so the price-discipline check does
     # not depend on how the reveal happens to be marked up.
     prices_by_slug, site_data, property_slugs = {}, {}, set()
+    declared_documents = set()
     if (site / "bov-site.json").exists():
         try:
             site_data = json.loads((site / "bov-site.json").read_text(encoding="utf-8"))
+            declared_documents = {
+                d for d in (site_data.get("documents") or []) if isinstance(d, str)
+            }
             for p in site_data.get("properties") or []:
                 if p.get("slug"):
                     property_slugs.add(p["slug"])
@@ -521,6 +525,18 @@ def main(site):
         # 12. no PDF download button on a website
         if "pdf-float-btn" in html or re.search(r'>\s*Download PDF\s*<', html):
             fail(f"{rel}: carries a Download PDF button. Removed from websites (Glen, 2026-07-30).")
+
+        # 12b. a comp document offered for download (an active listing's OM) is
+        # a declared PDF under documents/ that exists. The declaration is what
+        # the deploy-artifact scope gate (19) and the deploy staging trust, so
+        # an href to anything else is a broken button or an undeclared file.
+        for ref in set(re.findall(r'href=["\'](documents/[^"\']+)["\']', html, re.I)):
+            if ref not in declared_documents:
+                fail(f"{rel}: links {ref}, which bov-site.json does not declare under documents.",
+                     blocking=True)
+            elif not (site / ref).is_file():
+                fail(f"{rel}: links {ref} but the file is missing from the deploy tree.",
+                     blocking=True)
 
         # 13. size sanity. An empty render and a bloated one both signal a broken build.
         kb = len(html.encode()) // 1024
@@ -670,7 +686,7 @@ def main(site):
     # message this emits names a FILE and a class of artifact, deliberately
     # never a price, an address or a credential, so it matched none of the
     # blocking patterns and the entire check printed as advisory.
-    for message in _site_artifacts().artifact_scope_errors(site, property_slugs):
+    for message in _site_artifacts().artifact_scope_errors(site, property_slugs, declared_documents):
         fail(message, blocking=True)
 
     return report(site, pages)

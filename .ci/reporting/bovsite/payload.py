@@ -9,6 +9,7 @@ import hashlib
 import json
 from math import isclose
 from pathlib import Path
+import re
 import shutil
 from typing import Any
 
@@ -639,7 +640,7 @@ def presentation_projections(payload: dict) -> dict[str, Any]:
     properties = payload.get("properties") or []
     identity_fields = (
         "slug", "short_name", "address", "city", "submarket",
-        "track_record_submarkets", "apn", "units",
+        "track_record_submarkets", "track_record_representative", "apn", "units",
         "building_sf", "lot_sf", "lot_acres", "year_built", "renovated_year",
         "parking", "maps",
     )
@@ -821,6 +822,68 @@ def _resolved_team(team: dict) -> dict:
     return resolved
 
 
+DOCUMENTS_DIR = "documents"
+
+
+def _document_href(file: str) -> str:
+    """Public path for a comp document: documents/<slugified stem>.pdf."""
+    stem = re.sub(r"[^a-z0-9]+", "-", Path(file).stem.lower()).strip("-")
+    if not stem:
+        raise PayloadError(f"comp document {file!r} has no usable filename")
+    return f"{DOCUMENTS_DIR}/{stem}.pdf"
+
+
+def comp_documents(workspace: DealWorkspace) -> dict[str, Path]:
+    """Every comp document this build publishes: public href -> workspace source path.
+
+    A document is a PDF under the workspace's source-documents folder, named
+    by a non-excluded sale comp (Filip, 2500 N Naomi, 2026-09-02: "add a
+    button to download Grismer OM when comparing it to Naomi"). It ships in the
+    PUBLIC deploy repo, so the file must exist, must be a PDF, and must sit
+    inside that folder; anything else is refused here rather than published.
+    """
+    deal = workspace.load("deal")
+    sale = workspace.load("comps-sale")
+    root = (workspace.root / deal["workspace_layout"]["source_documents"]).resolve()
+    excluded = set(sale["conclusions"]["excluded_ids"])
+    documents: dict[str, Path] = {}
+    for comp in sale["rows"]:
+        document = comp.get("document")
+        if not document or comp["quality_rating"] == "exclude" or comp["id"] in excluded:
+            continue
+        source = (root / document["file"]).resolve()
+        try:
+            source.relative_to(root)
+        except ValueError:
+            raise PayloadError(f"comp {comp['id']}: document escapes source-documents: {document['file']}")
+        if not source.is_file():
+            raise PayloadError(f"comp {comp['id']}: document not found: {source}")
+        if source.suffix.lower() != ".pdf":
+            raise PayloadError(f"comp {comp['id']}: document is not a PDF: {document['file']}")
+        href = _document_href(document["file"])
+        if href in documents and documents[href] != source:
+            raise PayloadError(f"comp {comp['id']}: document name collides with another comp's: {href}")
+        documents[href] = source
+    return documents
+
+
+def _stage_documents(workspace: DealWorkspace, site_repo: Path) -> None:
+    """Copy declared comp documents into documents/ and prune everything else there."""
+    documents = comp_documents(workspace)
+    folder = site_repo / DOCUMENTS_DIR
+    if folder.is_dir():
+        for stale in folder.iterdir():
+            if stale.is_file() and f"{DOCUMENTS_DIR}/{stale.name}" not in documents:
+                stale.unlink()
+    if not documents:
+        if folder.is_dir() and not any(folder.iterdir()):
+            folder.rmdir()
+        return
+    folder.mkdir(parents=True, exist_ok=True)
+    for href, source in documents.items():
+        shutil.copy2(source, site_repo / href)
+
+
 def _stage_headshots(payload: dict, site_repo: Path) -> None:
     """Copy each member's registered derivative to its generated filename."""
     team = payload.get("team") or {}
@@ -996,9 +1059,16 @@ def _build_payload(workspace: DealWorkspace) -> dict:
     sale_sources = []
     active_sources = []
     excluded_sale_ids = set(sale["conclusions"]["excluded_ids"])
+    documents = comp_documents(workspace)
     for comp in sale["rows"]:
         if comp["quality_rating"] == "exclude" or comp["id"] in excluded_sale_ids:
             continue
+        # Only the public href and the button label reach bov-site.json, which
+        # is itself a public file; the workspace source path stays behind.
+        document = (
+            {"href": _document_href(comp["document"]["file"]), "label": comp["document"]["label"]}
+            if comp.get("document") else None
+        )
         rendered = {
             "address": comp["address"],
             "status": comp["status"].title(),
@@ -1015,6 +1085,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             "cap_rate": _fraction_to_percent(comp["cap_rate"]),
             "image": comp.get("image"),
             "restatement": comp.get("restatement"),
+            "document": document,
             "summary": comp["weight_reason"],
             "relevance": "; ".join(comp["physical_differences"]) or "Physical comparison recorded.",
             "considerations": "; ".join(comp["operational_differences"]) or "Operating comparison recorded.",
@@ -1116,6 +1187,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "city": presentation["city"],
         "submarket": presentation["submarket"],
         "track_record_submarkets": presentation.get("track_record_submarkets"),
+        "track_record_representative": presentation.get("track_record_representative"),
         "apn": ", ".join(deal["apns"]),
         "units": units,
         "building_sf": building_sf,
@@ -1185,14 +1257,16 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "overview": _paragraphs(copy, "investment", "overview"),
         "location_title": _one(copy, "location", "title"),
         "location_narrative": _paragraphs(copy, "location", "narrative"),
-        "physical_narrative": _paragraphs(copy, "property_details", "physical_narrative"),
+        "physical_narrative": _paragraphs(copy, "property_details", "physical_narrative", required=False),
         "market_narrative": _paragraphs(copy, "buyer_profile", "market_narrative"),
-        "positioning_narrative": _paragraphs(copy, "buyer_profile", "positioning_narrative"),
+        # Optional since 11813 Iowa (Filip Niculete, 2026-09-02): a deal may drop
+        # the Positioning Thesis; the page then omits the block.
+        "positioning_narrative": _paragraphs(copy, "buyer_profile", "positioning_narrative", required=False),
         "rent_narrative": _paragraphs(copy, "rent_comps", "narrative"),
         "valuation_narrative": _paragraphs(copy, "financial_analysis", "valuation_narrative"),
         "strategy": _paired(copy, "marketing", "strategy_titles", "strategy_copy"),
         "buyer_profiles": _paired(copy, "buyer_profile", "profile_titles", "profile_copy"),
-        "disclosures": _paragraphs(copy, "financial_analysis", "disclosures"),
+        "disclosures": _paragraphs(copy, "financial_analysis", "disclosures", required=False),
         "gallery": gallery,
         "maps": {
             "subject": maps.get("subject"),
@@ -1211,6 +1285,8 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "schema_version": 3,
         "document_type": "bov",
         "site_mode": "single",
+        # The deploy-artifact scope gate allows exactly these under documents/.
+        "documents": sorted(documents),
         "meta": {
             "domain": presentation["domain"],
             "client": presentation["client"],
@@ -1224,7 +1300,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "team": _resolved_team(presentation["team"]),
         "track_record": {
             "metrics": [["{closed}", "Closed Transactions"], ["{volume}", "Total Sales Volume"], ["{apt_units}", "Apartment Units Sold"]],
-            "narrative": _paragraphs(copy, "track_record", "narrative"),
+            "narrative": _paragraphs(copy, "track_record", "narrative", required=False),
             "achievements": _achievement_pairs(
                 _paragraphs(copy, "track_record", "achievements", required=False)
             ),
@@ -1285,6 +1361,7 @@ def write_payload(workspace: DealWorkspace, site_repo: Path | None = None) -> Pa
             images_dir / item["filename"],
         )
     _stage_headshots(payload, site_repo)
+    _stage_documents(workspace, site_repo)
     write_json_atomic(site_repo / "media-manifest.json", published_manifest(media))
     destination = site_repo / "bov-site.json"
     write_json_atomic(destination, payload)
