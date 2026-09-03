@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "6028-craner",
   "portfolio_id": null,
-  "package_version": "v12",
-  "approved_at": "2026-09-03T23:50:34.666990+00:00",
+  "package_version": "v13",
+  "approved_at": "2026-09-03T23:54:25.946741+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 4300000
@@ -22,10 +22,10 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "5bdd762a54f951258e352ffa493583eb5c2485ff6a7102a30b0ef59c34bd2cf9"
+      "content_sha256": "eb4784225f6beb427077cf9101738770e701055929f82bbd3b8eb100a1b7814d"
     },
     "financial_inputs": {
-      "content_sha256": "da44f72703bd1a521f91ec0098054f8522b8ed2183db8f16a9a3a0dea1473af1"
+      "content_sha256": "5ce002046727b9ce4d066fd13a3fcc6aaad34cb1263df4a4afd453c42aa52308"
     },
     "identity": {
       "content_sha256": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610"
@@ -34,7 +34,7 @@
       "content_sha256": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97"
     },
     "pricing_decision": {
-      "content_sha256": "a16c785f5773ec3ade18c16114d8f274596e820cc94bc41023eab83c577bb024"
+      "content_sha256": "b1a85d8559c7e369bbe14918c4eefeb7a0c173a06e95053eb5027ee42f980f90"
     },
     "regulatory_conclusions": {
       "content_sha256": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"

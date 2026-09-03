@@ -423,32 +423,32 @@
           242624
         ],
         "loan_payments": [
-          -206512,
-          -206512
+          -184346,
+          -184346
         ],
         "pretax_cf": [
-          24074,
-          36112
+          46240,
+          58278
         ],
         "pretax_cf_pct": [
-          1.5996013289036544,
-          2.399468438538206
+          2.5617728531855954,
+          3.228698060941828
         ],
         "principal_reduction": [
-          32752,
-          34858
+          29236,
+          31117
         ],
         "total_return": [
-          56826,
-          70970
+          75476,
+          89395
         ],
         "total_return_pct": [
-          3.7758139534883726,
-          4.7156146179402
+          4.1814958448753465,
+          4.9526315789473685
         ],
         "cash_on_cash_pct": [
-          1.5996013289036544,
-          2.399468438538206
+          2.5617728531855954,
+          3.228698060941828
         ]
       },
       "expense_lines": [
@@ -554,10 +554,10 @@
       },
       "financing_structure": "new_financing",
       "financing": {
-        "loan_amount": 2795000,
+        "loan_amount": 2495000,
         "rate": 6.25,
         "amortization": 30,
-        "dcr": 1.12,
+        "dcr": 1.25,
         "basis": "illustrative_assumption"
       },
       "highlights": [
@@ -628,7 +628,7 @@
         }
       ],
       "disclosures": [
-        "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: 65% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
+        "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: a new loan sized to a 1.25 debt coverage ratio on current income, 58% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
         "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
       ],
       "gallery": [
@@ -1285,7 +1285,7 @@
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: 65% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
+            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: a new loan sized to a 1.25 debt coverage ratio on current income, 58% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
             "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
@@ -1736,7 +1736,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: 65% loan to value at 6.25% on a 30-year amortization, not a lender quote."
+          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: a new loan sized to a 1.25 debt coverage ratio on current income, 58% loan to value at 6.25% on a 30-year amortization, not a lender quote."
         },
         {
           "id": "disclosure-2",
@@ -1851,7 +1851,7 @@
             "Against the evidence, the price is disciplined rather than aggressive. It sits inside the closed per-square-foot range, inside the closed cap-rate range, and at a lower multiplier than every closed sale but one, and it sits below every comparable per unit because the subject's units are smaller. The reasons it is not higher are the same reasons it is defensible: the room leases, the first-year statement and the absence of a closed eight-unit new-construction print in the submarket. A buyer who accepts the room income will pay the top of the range; a buyer who converts it to whole units will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: 65% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
+            "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: a new loan sized to a 1.25 debt coverage ratio on current income, 58% loan to value at 6.25% on a 30-year amortization, not a lender quote.",
             "The trailing twelve months are the building's lease-up year: base rent collected was $298,968 with $18,290 of concessions against $332,400 now scheduled. Additional income is carried as Parking & Pet at $600 per month ($7,200: $575 of parking and $25 of pet rent); ownership's sizing sheet carries $12,000 of parking from eight rented spaces, which is treated as upside, and late and NSF fees are not carried. Unit square footages are ownership's figures and are approximate. Comparable cap rates and multipliers are as published by the listing brokerages and were not independently audited."
           ]
         }
@@ -2302,7 +2302,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: 65% loan to value at 6.25% on a 30-year amortization, not a lender quote."
+          "text": "Scheduled income is the ownership rent roll as of August 27, 2026 with two vacant rooms at their $1,400 asking rent; a third room shows notice for August 31, 2026. Taxes are reassessed at the list price at the subject's own 1.1244% effective rate. Insurance ($10,660), utilities ($7,102 for electric, water and sewer), trash ($3,764), gardening ($2,400) are ownership's operating figures, drawn from its accrual statement for September 2025 through August 2026 and its own sizing schedule. Repairs are carried at $600 per unit per year ($4,800) against $7,271 booked in the first year, and reserves at half of repairs ($2,400). A 4.0% management fee is added; ownership books no management cost. Debt figures are illustrative: a new loan sized to a 1.25 debt coverage ratio on current income, 58% loan to value at 6.25% on a 30-year amortization, not a lender quote."
         },
         {
           "id": "disclosure-2",
@@ -2451,28 +2451,28 @@
     "deal_id": "6028-craner",
     "domains": {
       "identity": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610",
-      "financial_inputs": "da44f72703bd1a521f91ec0098054f8522b8ed2183db8f16a9a3a0dea1473af1",
-      "pricing_decision": "a16c785f5773ec3ade18c16114d8f274596e820cc94bc41023eab83c577bb024",
+      "financial_inputs": "5ce002046727b9ce4d066fd13a3fcc6aaad34cb1263df4a4afd453c42aa52308",
+      "pricing_decision": "b1a85d8559c7e369bbe14918c4eefeb7a0c173a06e95053eb5027ee42f980f90",
       "sale_comps": "cfe6e12b57e87ab152b100ed7d0b373760877905241770721133895478d814f2",
       "rent_comps": "f3c551d6ada37611419700c0d9d8203d2b8fcf303e33e6569f5c20c0103e0d67",
-      "copy": "5bdd762a54f951258e352ffa493583eb5c2485ff6a7102a30b0ef59c34bd2cf9",
+      "copy": "eb4784225f6beb427077cf9101738770e701055929f82bbd3b8eb100a1b7814d",
       "media_selection": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97",
       "regulatory_conclusions": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"
     },
     "presentation_hashes": {
       "identity": "405f26d056004e46a6d11ac5c475357a85f01049269e7254baf04f2549233f3f",
-      "financial_inputs": "fda0d39a2747b4c1b5bc929c00ebf92ffdd08749be8f93b96cb77dc80f16421e",
+      "financial_inputs": "9228533bd8c90ea03ae419ab474fad85c9ed1f378963411507092acd40de02a8",
       "pricing_decision": "1a6ea2f85cd92dc548d1fa13ed80e90cfe656e62ae4d24a22ea03f0dc51ad902",
       "sale_comps": "3d4e9388faddfc3a3a398407277dddf6477472cb9a21518d72f0f7528295d565",
       "rent_comps": "d66795ee34560973f7e09cd1ab68050986bedc7bc541e6876ffa6d22ad5dbfa0",
-      "copy": "5dc18aae97772d139aec2e8ede6880ed658e2a78e7b93a0ceeff24fe2cd6574c",
+      "copy": "8817df382f92e72f19c62aba0929ea43357f4430e7416231b663f09bfe209d8a",
       "media_selection": "674b400cb36945f46808caba408d7ee67eb9987332189e00132c133aeeabc570",
       "regulatory_conclusions": "2c0f8aeb9892955d917c5f584b9bbad751befa9a119c32e9bcc247ba014c5102"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-03T23:50:46+00:00",
+    "generated": "2026-09-03T23:54:35+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
