@@ -1247,6 +1247,10 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             "principal_reduction": principal,
             "total_return": total_return,
             "total_return_pct": [value / return_denominator * 100 for value in total_return],
+            # Cash-on-cash: pre-tax cash flow over the equity (down payment on a
+            # financed deal, the price on an all-cash one). Filip Niculete, 6028
+            # Craner, 2026-09-03: "show cash on cash factoring in 6.25% debt".
+            "cash_on_cash_pct": [value / return_denominator * 100 for value in pretax],
         },
         "expense_lines": expense_rows,
         "expense_notes": expense_notes,

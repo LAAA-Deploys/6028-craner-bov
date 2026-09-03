@@ -445,6 +445,10 @@
         "total_return_pct": [
           3.7758139534883726,
           4.7156146179402
+        ],
+        "cash_on_cash_pct": [
+          1.5996013289036544,
+          2.399468438538206
         ]
       },
       "expense_lines": [
@@ -2457,7 +2461,7 @@
     },
     "presentation_hashes": {
       "identity": "405f26d056004e46a6d11ac5c475357a85f01049269e7254baf04f2549233f3f",
-      "financial_inputs": "4090bb3cc41fba6d950da6c223c274faf3b4638157060d63aadc831ffc0fef76",
+      "financial_inputs": "fda0d39a2747b4c1b5bc929c00ebf92ffdd08749be8f93b96cb77dc80f16421e",
       "pricing_decision": "1a6ea2f85cd92dc548d1fa13ed80e90cfe656e62ae4d24a22ea03f0dc51ad902",
       "sale_comps": "3d4e9388faddfc3a3a398407277dddf6477472cb9a21518d72f0f7528295d565",
       "rent_comps": "d66795ee34560973f7e09cd1ab68050986bedc7bc541e6876ffa6d22ad5dbfa0",
@@ -2468,7 +2472,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-03T23:43:34+00:00",
+    "generated": "2026-09-03T23:49:27+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
