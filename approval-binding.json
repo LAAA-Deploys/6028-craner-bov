@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "6028-craner",
   "portfolio_id": null,
-  "package_version": "v10",
-  "approved_at": "2026-09-03T23:32:34.290380+00:00",
+  "package_version": "v11",
+  "approved_at": "2026-09-03T23:43:24.084854+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 4300000
@@ -13,6 +13,7 @@
     "exc-benchmark-lines",
     "exc-coliving",
     "exc-comp-income",
+    "exc-financing",
     "exc-parking",
     "exc-pin-provisional",
     "exc-t12-leaseup",
@@ -21,10 +22,10 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "e3be4c9effa85f8e89ab3a519007046dc18605f7ab35170706457ff41aa10a0c"
+      "content_sha256": "5bdd762a54f951258e352ffa493583eb5c2485ff6a7102a30b0ef59c34bd2cf9"
     },
     "financial_inputs": {
-      "content_sha256": "657f4f73cabfd7432264ef4b7442f6a84a7d4b33c520fe05cb901932e91b5a1b"
+      "content_sha256": "da44f72703bd1a521f91ec0098054f8522b8ed2183db8f16a9a3a0dea1473af1"
     },
     "identity": {
       "content_sha256": "1e9d70a95a4c64f139d04f1761d3b5a66847f3bb3feeb5238569e475c0454610"
@@ -33,7 +34,7 @@
       "content_sha256": "d35a1ddd6c35708f778413c5de9d672b2e40d8d5186d01bc5981140a04a33a97"
     },
     "pricing_decision": {
-      "content_sha256": "503b469b1254bf205a8fe91b5aeb7aa2a0616224b10efc9b6917707bc1d7ce13"
+      "content_sha256": "a16c785f5773ec3ade18c16114d8f274596e820cc94bc41023eab83c577bb024"
     },
     "regulatory_conclusions": {
       "content_sha256": "1a52cda0196793d3f0b46cfb50e9aa85eef8783a041aa461ce716a8596abb6f7"
